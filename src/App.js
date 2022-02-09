@@ -1,3 +1,7 @@
+import nodeImage from './image/node.png'
+import pythonImage from './image/python.png'
+import unityImage from './image/unity.png'
+import gitImage from './image/git.png'
 import './App.css';
 
 function App() {
@@ -7,7 +11,7 @@ function App() {
       </div>
       <div className = "grid-bottom-in">
         <div>
-          <img   src="/image/node.png" width ='600' height = '400'  alt="description of image"/>
+          <img   src={nodeImage} width ='600' height = '400'  alt="description of image"/>
         </div>
         <div>
           <h1>test</h1>
@@ -16,19 +20,19 @@ function App() {
           <h1>test</h1>
         </div>
         <div>
-          <img   src="/image/python.png" width ='600' height = '400'  alt="description of image"/>
+          <img   src={pythonImage} width ='600' height = '400'  alt="description of image"/>
         </div>
         <div>
-          <img   src="/image/unity.png" width ='600' height = '400'  alt="description of image"/>
-        </div>
-        <div>
-          <h1>test</h1>
+          <img   src={unityImage} width ='600' height = '400'  alt="description of image"/>
         </div>
         <div>
           <h1>test</h1>
         </div>
         <div>
-          <img   src="/image/git.png" width ='600' height = '400'  alt="description of image"/>
+          <h1>test</h1>
+        </div>
+        <div>
+          <img   src={gitImage} width ='600' height = '400'  alt="description of image"/>
         </div>
 
 
