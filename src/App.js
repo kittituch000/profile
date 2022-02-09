@@ -1,25 +1,44 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          test1234
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className = "grid-bottom">
+      <div>
+      </div>
+      <div className = "grid-bottom-in">
+        <div>
+          <img   src="/image/node.png" width ='600' height = '400'/>
+        </div>
+        <div>
+          <h1>test</h1>
+        </div>
+        <div>
+          <h1>test</h1>
+        </div>
+        <div>
+          <img   src="/image/python.png" width ='600' height = '400'/>
+        </div>
+        <div>
+          <img   src="/image/unity.png" width ='600' height = '400'/>
+        </div>
+        <div>
+          <h1>test</h1>
+        </div>
+        <div>
+          <h1>test</h1>
+        </div>
+        <div>
+          <img   src="/image/git.png" width ='600' height = '400'/>
+        </div>
+
+
+      </div>
+      <div>
+      </div>
+      
+
     </div>
-  );
+  )
 }
 
 export default App;
