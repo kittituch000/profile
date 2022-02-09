@@ -7,7 +7,7 @@ function App() {
       </div>
       <div className = "grid-bottom-in">
         <div>
-          <img   src="/image/node.png" width ='600' height = '400'/>
+          <img   src="/image/node.png" width ='600' height = '400'  alt="description of image"/>
         </div>
         <div>
           <h1>test</h1>
@@ -16,19 +16,19 @@ function App() {
           <h1>test</h1>
         </div>
         <div>
-          <img   src="/image/python.png" width ='600' height = '400'/>
+          <img   src="/image/python.png" width ='600' height = '400'  alt="description of image"/>
         </div>
         <div>
-          <img   src="/image/unity.png" width ='600' height = '400'/>
-        </div>
-        <div>
-          <h1>test</h1>
+          <img   src="/image/unity.png" width ='600' height = '400'  alt="description of image"/>
         </div>
         <div>
           <h1>test</h1>
         </div>
         <div>
-          <img   src="/image/git.png" width ='600' height = '400'/>
+          <h1>test</h1>
+        </div>
+        <div>
+          <img   src="/image/git.png" width ='600' height = '400'  alt="description of image"/>
         </div>
 
 
