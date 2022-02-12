@@ -1,5 +1,9 @@
 import "./App.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 function App() {
+  Aos.init();
   return (
     <div>
       <div className="grid-top">
@@ -9,7 +13,9 @@ function App() {
             <img src="./image/kittituch.jpg" className="profile-image" alt="" />
           </div>
           <div className="top-text">
-            กิตติธัช สุวรรณศรี<br /><br />
+            กิตติธัช สุวรรณศรี
+            <br />
+            <br />
             <img src="./image/phone.ico" className="icon" alt="" />
             &nbsp;&nbsp;0993123330 <br />
             <img src="./image/email.ico" className="icon" alt="" />
@@ -21,13 +27,24 @@ function App() {
             <img src="./image/address.ico" className="icon" alt="" />
             &nbsp;&nbsp;อ่อนนุช กรุงเทพ
           </div>
-          <div className="top-text">ประวัติการทำงาน<br /><br />Thai Generation Co., Ltd<br />Magic Box Asia Co., Ltd</div>
+          <div className="top-text">
+            ประวัติการทำงาน
+            <br />
+            <br />
+            Thai Generation Co., Ltd
+            <br />
+            Magic Box Asia Co., Ltd
+          </div>
         </div>
       </div>
       <div className="grid-bottom">
         <div></div>
         <div className="grid-bottom-in">
-          <div className="grid-bottom-in-in">
+          <div
+            className="grid-bottom-in-in"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          >
             <div className="grid-bottom-in-node-image">
               <img src="./image/node.png" className="App-logo" alt="" />
             </div>
@@ -46,7 +63,11 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="grid-bottom-in-in">
+          <div
+            className="grid-bottom-in-in"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          >
             <div className="grid-bottom-in-node-text">
               <h2>PYTHON</h2>
               <div className="nomal-text">
@@ -65,7 +86,11 @@ function App() {
               <img src="./image/python.png" className="App-logo" alt="" />
             </div>
           </div>
-          <div className="grid-bottom-in-in">
+          <div
+            className="grid-bottom-in-in"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
             <div className="grid-bottom-in-unity-image">
               <img src="./image/unity.png" className="App-logo" alt="" />
             </div>
@@ -84,7 +109,11 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="grid-bottom-in-in">
+          <div
+            className="grid-bottom-in-in"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
             <div className="grid-bottom-in-node-text">
               <h2>TOOL</h2>
               <div className="nomal-text">
