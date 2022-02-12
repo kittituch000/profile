@@ -2,6 +2,16 @@
   display: grid;
   grid-template-columns: 20% 60% 20%;
 }
+.grid-top {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  margin-bottom: 3%;
+  background: linear-gradient(to bottom right, #F9F18E ,#B5F6F8, #E6EAE6,#B5F6F8 );
+}
+.grid-top-in {
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+}
 .grid-bottom-in {
   display: grid;
   grid-template-columns: 100%;
@@ -15,6 +25,9 @@
   margin:4%;
 }
 .grid-bottom-in-node-image{
+  background: linear-gradient(to right, #B5F6F8  , #A3F9BA );
+}
+.grid-bottom-in-unity-image{
   background: linear-gradient(to bottom right, #D0D0D0 , #E6EAE6 );
 }
 .grid-bottom-in-python-image{
@@ -35,6 +48,14 @@
   font-size: 16px;
   color: #3c4457;
 }
+
+.top-text{
+  font-style:normal;
+  font-size: 25px;
+  margin-top: 8%;;
+  color: #3c4457;
+  margin-right: 10%;
+}
 .App-logo {
   max-width: 100%;
   max-height: 100%;
@@ -42,10 +63,28 @@
   pointer-events: none;
 }
 
+.profile-image {
+  border-radius: 10%;
+  max-width: 200px;
+  max-height: 250px;
+  margin: 10%;;
+  pointer-events: none;
+}
+.icon{
+  max-width: 29px;
+  max-height: 29px;
+}
+
 @media only screen and (max-width: 1200px){
   .grid-bottom {
     display: grid;
     grid-template-columns: 100%;
+  }
+  .grid-top {
+    display: grid;
+    grid-template-columns: 100%;
+    margin-bottom: 3%;
+    background: linear-gradient(to bottom right, #F9F18E ,#B5F6F8, #E6EAE6,#B5F6F8 );
   }
   
 }
@@ -67,6 +106,23 @@
     margin-right: 5%;
     margin-bottom: 3%;
     background-color: white;
+  }
+  .grid-top {
+    display: grid;
+    grid-template-columns: 100%;
+    margin-bottom: 3%;
+    background: linear-gradient(to bottom right, #F9F18E ,#B5F6F8, #E6EAE6,#B5F6F8 );
+  }
+  .grid-top-in {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .top-text{
+    font-style:normal;
+    font-size: 25px;
+    margin: 10%;;
+    color: #3c4457;
+
   }
   
 }
