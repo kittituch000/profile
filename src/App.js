@@ -1,11 +1,13 @@
-
+import nodeImage from './image/node.png';
 import './App.css';
 
 function App() {
   return (
     <div className="grid-bottom">
 
-    <p>sdfsdfsdf</p>
+      <div>
+        <img src={nodeImage} className="App-logo" alt="description of image" />
+      </div>
 
     </div>
   )
