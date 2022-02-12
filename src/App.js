@@ -6,7 +6,7 @@ function App() {
     <div className="grid-bottom">
 
       <div>
-        <img src={nodeImage} className="App-logo" alt="description of image" />
+        <img src={nodeImage} />
       </div>
 
     </div>
