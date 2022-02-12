@@ -1,14 +1,42 @@
 .grid-bottom {
   display: grid;
   grid-template-columns: 20% 60% 20%;
-  background-color: rgba(223, 219, 219, 0.651);
 }
 .grid-bottom-in {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 100%;
   background-color: white;
 }
+.grid-bottom-in-in {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: white;
+  box-shadow:0 3px 15px 0 rgb(60 68 87 / 10%);
+  margin:4%;
+}
+.grid-bottom-in-node-image{
+  background: linear-gradient(to bottom right, #D0D0D0 , #E6EAE6 );
+}
+.grid-bottom-in-python-image{
+  background: linear-gradient(to right, #F9F18E  , #AFCDEF);
+}
+.grid-bottom-in-tool-image{
+  background: linear-gradient(to right, #F59183    , #A5F2F6);
+}
+.grid-bottom-in-node-text{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
+  background-color: white;
+}
+.nomal-text{
+  font-style:normal;
+  font-size: 16px;
+  color: #3c4457;
+}
 .App-logo {
-  height: 40vmin;
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 5%;-top: 5%;
   pointer-events: none;
 }
