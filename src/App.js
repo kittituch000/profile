@@ -1,4 +1,3 @@
-import nodeImage from './image/node.png';
 import './App.css';
 
 function App() {
@@ -6,7 +5,7 @@ function App() {
     <div className="grid-bottom">
 
       <div>
-        <img src={nodeImage} className="App-logo"  alt=""/>
+        <img src="./image/node.png" className="App-logo"  alt=""/>
       </div>
 
     </div>
